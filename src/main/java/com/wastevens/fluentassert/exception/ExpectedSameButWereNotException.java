@@ -1,6 +1,6 @@
 package com.wastevens.fluentassert.exception;
 
-import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
+import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 
 @SuppressWarnings("serial")
 public class ExpectedSameButWereNotException extends FluentAssertionException {
